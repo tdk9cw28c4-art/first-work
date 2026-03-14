@@ -29,11 +29,13 @@ ul {
 
 }
 
+
+
 .container {
     width: 100%;
-    max-width: 1470px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 /*--------------------------------------------------- HEADER------------------------------------------ */
@@ -70,4 +72,63 @@ ul {
     width: 30px;              
     height: 30px;
     object-fit: contain;      
+}
+
+/* -------------------------------------------WELCOME-------------------------------------- */
+
+.welcome_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.welcome .container{
+    border-radius: 30px;
+    width: 1300px;
+    height: 600px;
+    padding: 120px;
+    margin-top: 30px;
+    box-shadow: -2px -2px 5px 0 rgba(20, 29, 61, 0.15), 2px 2px 5px 0 rgba(20, 29, 61, 0.15);
+}
+
+.welcome_text {
+    max-width: 450px;
+}
+
+.welcome_title {
+    font-weight: 400;
+    width: 485px;
+    height: 85px;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.guard {
+    font-weight: 600;
+}
+
+.welcome_desk {
+    width: 365px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 100px;
+    opacity: 0.7;
+}
+
+.btn {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 18px 105px;
+    box-shadow: 0 3px 20px 0 rgba(40, 40, 40, 0.3);
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.welcome_img {
+    width: 750px;
+    height: auto;
 }
