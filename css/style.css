@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url(/fonts/San\ Francisco\ Pro\ Display/SF-Pro-Display);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* 
+light 300
+regular 400
+medium 500
+semibold 600 */
+
+body {
+    background-color: #fff;
+}
+
+a {
+    font-family: "SF-Pro-Display" sans-serif;
+    font-weight: 300;
+    color: #000;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    
+}
+
+/*--------------------------------------------------- HEADER------------------------------------------ */
+
+.header .container {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
