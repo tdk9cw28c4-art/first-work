@@ -35,7 +35,7 @@ ul {
 
 .container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -134,7 +134,7 @@ ul {
 }
 
 
-/* ----------------------------------ABOUT INSURENCE---------------------------------------- */
+/* ----------------------------------ABOUT INSURANCE---------------------------------------- */
 
 .info {
     margin-top: 110px;
@@ -151,7 +151,7 @@ ul {
 .frame_cards{
     display:flex;
     justify-content:center;
-    gap:50px;
+    gap:70px;
     flex-wrap:wrap;
 }
 
@@ -168,8 +168,8 @@ ul {
 
 .card {
     border-radius: 30px;
-    width: 175px;
-    height: 200px;
+    width: 195px;
+    height: 220px;
     padding: 25px;
     box-shadow: -2px -2px 5px 0 rgba(20, 29, 61, 0.15), 2px 2px 5px 0 rgba(20, 29, 61, 0.15);
 
