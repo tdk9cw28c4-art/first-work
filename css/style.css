@@ -279,3 +279,85 @@ ul {
     width: 280px;
     padding-right: 10px;
 }
+
+
+/* ==========================================PACKAGE SERVICE======================================== */
+
+.packages_container{
+    display: flex;
+    justify-content: center;
+}
+
+.packages_title { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+
+.package_types {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.package_card{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.package_top{
+    position:absolute;
+    top: -40px;
+    left: 15px;
+    width: 92%;
+    height: 90px;
+    background: #d1bd8f;
+    border-radius: 10px;
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+
+    font-size:15px;
+    color:white;
+}
+
+.package_card:first-child .package_top{
+    background: #4A607A;
+}
+
+.package_text {
+    font-size: 22px;
+}
+
+.top_desk {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.package_btn {
+    display: flex;
+    gap: 15px;
+    border: 1px solid  #000;
+    border-radius: 6px;
+    padding: 10px 50px;
+    align-items: center;
+    text-align: center;
+
+    box-shadow: 0 2px 18px 0 rgba(41, 41, 41, 0.1);
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.package_btn:hover {
+    opacity: 0.6;
+}
