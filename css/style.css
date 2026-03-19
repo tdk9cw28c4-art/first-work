@@ -401,3 +401,143 @@ ul {
 .faq_arrow {
     font-size: 14px;
 }
+
+/* ==================================HELP==============================================
+
+.help_title {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.help_cards {
+    display:flex;
+    justify-content:space-evenly;
+    cursor: pointer;
+}
+
+.help_card p {
+    text-align: center;
+    opacity: 0.8;
+}
+
+.help_card {
+    border-radius: 15px;
+    width: 195px;
+    height: 230px;
+    box-shadow: 0 0.1px 7px -1px rgba(41, 41, 41, 0.1);
+
+    text-align:center;
+    padding-top:40px;
+} */
+
+/* =========================================== FORM ================================= */
+
+.form_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form_title h1 {
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+.form_title p {
+    font-size: 18px;
+}
+
+.form_section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.container_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 210px;
+}
+
+.form_box {
+    width: 420px;
+    background: #f7f7f7;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+
+}
+
+.form_steps {
+    position: absolute;
+    top: -25px;
+    left: 40px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.step {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #ccc;
+}
+
+.step.active {
+    border: 2px solid #4A607A;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.form input,.form select {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #eee;
+    font-size: 14px;
+}
+
+.form_btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.clear {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.next {
+    border: 1px solid #000;
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.form_img {
+    width: 500px;
+    height: auto;
+}
+
